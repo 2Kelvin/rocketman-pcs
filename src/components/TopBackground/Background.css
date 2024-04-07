@@ -1,0 +1,19 @@
+.background {
+    background-color: #121212;
+    color: #eee;
+    height: 8rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.background p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
