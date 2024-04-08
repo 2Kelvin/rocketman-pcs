@@ -12,8 +12,8 @@ const rx570 = {
         '1750MHz memory clock',
         'PCIE 3.0 x 16 bus interface',
     ],
-    price: 'Ksh 19,999',
-    newPrice: 'Ksh 12,999',
+    price: '19,999',
+    newPrice: '12,999',
     sold: false,
 };
 

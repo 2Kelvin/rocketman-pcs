@@ -35,9 +35,16 @@
     margin-bottom: 0.5rem;
 }
 
-.productCard .price {
+.productCard .price,
+.productCard .newPrice {
     font-weight: 550;
     margin-bottom: 1rem;
+}
+
+.productCard .savePrice {
+    color: rgb(235, 45, 45);
+    text-decoration: none;
+    margin-left: .3rem;
 }
 
 .productCard button {
@@ -50,4 +57,9 @@
     margin-top: 0.5rem;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.productCard button:hover,
+.productCard button:active {
+    background-color: var(--hoverGreen);
 }

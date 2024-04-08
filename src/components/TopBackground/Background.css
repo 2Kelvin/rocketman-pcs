@@ -1,6 +1,6 @@
 .background {
-    background-color: #121212;
-    color: #ddd;
+    background-color: var(--myBlack);
+    color: var(--greyWhite);
     height: 10rem;
     margin: 0;
     padding: 0;

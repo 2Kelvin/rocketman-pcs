@@ -1,5 +1,8 @@
 :root {
   --myGreen: #44d62c;
+  --hoverGreen: #18b300;
+  --greyWhite: #ddd;
+  --myBlack: #020202;
 }
 
 body {
@@ -8,5 +11,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   font-size: 15px;
-  background-color: #ddd;
+  background-color: var(--greyWhite);
+  color: var(--myBlack);
 }
