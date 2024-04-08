@@ -1,7 +1,12 @@
+:root {
+  --myGreen: #44d62c;
+}
+
 body {
   font-family: "Nanum Gothic", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   font-size: 15px;
+  background-color: #ddd;
 }
