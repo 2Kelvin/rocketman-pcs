@@ -1,6 +1,8 @@
 .productCard {
-    background-color: white;
+    /* background-color: white; */
     border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     overflow: hidden;
 }
 
@@ -10,17 +12,19 @@
     height: 15rem;
     width: 100%;
     cursor: pointer;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
 }
 
 .productCard h4 {
     margin: 0.5rem 0;
-    padding-left: .5rem;
+    /* padding-left: .5rem; */
 }
 
 .productCard p {
     margin: 0.3rem 0;
     font-size: .8rem;
-    padding-left: .5rem;
+    /* padding-left: .5rem; */
 }
 
 .productCard hr {
@@ -39,12 +43,13 @@
 .productCard .newPrice {
     font-weight: 550;
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .productCard .savePrice {
-    color: rgb(235, 45, 45);
+    opacity: .3;
     text-decoration: none;
-    margin-left: .3rem;
+    margin-left: .6rem;
 }
 
 .productCard button {
@@ -57,6 +62,7 @@
     margin-top: 0.5rem;
     font-size: 1rem;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
 
 .productCard button:hover,

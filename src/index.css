@@ -5,12 +5,16 @@
   --myBlack: #020202;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   font-size: 15px;
-  background-color: var(--greyWhite);
+  /* background-color: var(--greyWhite); */
   color: var(--myBlack);
 }
