@@ -17,4 +17,4 @@ const rx570 = {
     sold: false,
 };
 
-export const myStock = [rx570, rx570];
+export const myStock = [rx570, rx570, rx570];

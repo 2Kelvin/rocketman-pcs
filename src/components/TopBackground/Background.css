@@ -1,18 +1,24 @@
 .background {
-    height: 10rem;
+    height: 9rem;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    text-align: center;
     margin-bottom: 3rem;
     border-bottom: 1px solid var(--myGreen);
+    background-color: var(--bgBlack2);
+}
+
+.background .bgTextContainer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .background p {
-    margin: 0;
+    margin: 0 0 0.2rem 0;
     text-transform: uppercase;
     font-size: 1.7rem;
     font-weight: 800;
@@ -24,6 +30,33 @@
     opacity: 0.9;
     color: var(--greyWhiteTwo);
     margin-top: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 1000px) {
+    .background .bgTextContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .background .bgTextContainer {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .background .bgTextContainer {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .background .bgTextContainer {
+        width: 60%;
+    }
 }

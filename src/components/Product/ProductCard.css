@@ -8,22 +8,21 @@
 .productCard img {
     display: block;
     object-fit: cover;
-    height: 15rem;
+    height: 11rem;
     width: 100%;
     cursor: pointer;
-    /* border-radius: 1rem;
-    border-bottom-left-radius: 0; */
 }
 
 .productCard h4 {
     margin: 0.9rem 0 0.6rem 0;
     font-size: 1rem;
     padding-left: 1rem;
+    font-weight: 500;
 }
 
 .productCard p {
     margin: 0 0 0.2rem 0;
-    font-size: .9rem;
+    font-size: 14px;
     padding-left: 1rem;
 }
 
@@ -40,7 +39,7 @@
 }
 
 .productCard .keySpecs {
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 0.5rem;
 }
 
@@ -63,7 +62,7 @@
     background-color: var(--myGreen);
     border: none;
     color: var(--myWhite);
-    font-weight: 550;
+    font-weight: 500;
     margin-top: 0.5rem;
     font-size: 1rem;
     cursor: pointer;
@@ -73,4 +72,91 @@
 .productCard button:hover,
 .productCard button:active {
     background-color: var(--hoverGreen);
+}
+
+
+/* ++++++++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 301px) {
+    .productCard img {
+        height: 13rem;
+    }
+}
+
+@media screen and (min-width: 325px) {
+    .productCard img {
+        height: 14rem;
+    }
+}
+
+@media screen and (min-width: 345px) {
+    .productCard img {
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .productCard img {
+        height: 18rem;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .productCard img {
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 510px) {
+    .productCard img {
+        height: 22rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .productCard img {
+        height: 12rem;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .productCard img {
+        height: 13rem;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    .productCard img {
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .productCard img {
+        height: 16rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .productCard img {
+        height: 18rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .productCard img {
+        height: 12rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .productCard img {
+        height: 14rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .productCard img {
+        height: 16rem;
+    }
 }
