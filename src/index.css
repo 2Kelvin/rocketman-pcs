@@ -1,8 +1,12 @@
 :root {
   --myGreen: #44d62c;
   --hoverGreen: #18b300;
+  --myWhite: #eee;
   --greyWhite: #ddd;
+  --greyWhiteTwo: #9a9a9a;
   --myBlack: #020202;
+  --bgBlack2: #111;
+  --bgBlack3: #222;
 }
 
 html {
@@ -16,5 +20,6 @@ body {
   margin: 0;
   font-size: 15px;
   /* background-color: var(--greyWhite); */
-  color: var(--myBlack);
+  color: var(--myWhite);
+  background-color: var(--myBlack);
 }

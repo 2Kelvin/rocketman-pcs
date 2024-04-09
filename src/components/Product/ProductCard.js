@@ -11,7 +11,7 @@ export default function ProductCard({ product }) {
             <p className='keySpecs'>Key Specs</p>
             <>
                 {product.specs.map((spec) => (
-                    <p>{spec}</p>
+                    <p className='specP'>{spec}</p>
                 ))}
             </>
             <hr />

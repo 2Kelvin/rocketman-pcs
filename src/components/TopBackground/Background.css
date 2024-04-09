@@ -1,6 +1,4 @@
 .background {
-    background-color: var(--myBlack);
-    color: var(--greyWhite);
     height: 10rem;
     margin: 0;
     padding: 0;
@@ -10,6 +8,7 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 3rem;
+    border-bottom: 1px solid var(--myGreen);
 }
 
 .background p {
@@ -18,8 +17,13 @@
     font-size: 1.7rem;
     font-weight: 800;
     letter-spacing: 1px;
+    color: var(--myGreen);
 }
 
 .background h3 {
     opacity: 0.9;
+    color: var(--greyWhiteTwo);
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
