@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import './ProductCard.css';
+import ContactCard from '../ContactCard/ContactCard';
 
 
 export default function ProductCard({ product }) {
+    const [showContact, setShowContact] = useState(false);
+
     return (
         <div className='productCard'>
             <img src={product.image} alt={product.alt} />
@@ -32,7 +36,13 @@ export default function ProductCard({ product }) {
             { // display the new price if available
                 product.newPrice && <p className='newPrice'>Ksh {product.newPrice}</p>
             }
-            <button>Contact to Buy</button>
+
+            {/* show contact card when the 'contact to buy' button is clicked */}
+            <button onClick={() => setShowContact(true)}>
+                Contact to Buy
+            </button>
+
+            {showContact && <ContactCard showContact={showContact} setShowContact={setShowContact} />}
         </div>
     );
 }

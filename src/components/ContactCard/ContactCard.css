@@ -1,0 +1,40 @@
+.contactCard {
+    height: 20rem;
+    width: 24rem;
+    border-bottom-right-radius: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-top: 2px solid var(--myGreen);
+    padding: 1rem;
+}
+
+.flexWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.contactCard .closeIconDiv {
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding: 0.1rem;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contactCard .closeIconDiv:hover,
+.contactCard .closeIconDiv:active {
+    border: 1px solid red;
+    color: red;
+}
+
+.closeIconDiv .closeIcon {
+    height: 2rem;
+    width: 2rem;
+}
