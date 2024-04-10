@@ -1,13 +1,17 @@
 .contactCard {
-    height: 20rem;
-    width: 24rem;
+    height: 18rem;
+    width: 22rem;
     border-bottom-right-radius: 1rem;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
-    border-top: 2px solid var(--myGreen);
-    padding: 1rem;
+    border-top: 3px solid var(--myGreen);
+    padding: 1rem 1rem;
+    background-color: var(--bgBlack2);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .flexWrapper {
@@ -30,11 +34,51 @@
 
 .contactCard .closeIconDiv:hover,
 .contactCard .closeIconDiv:active {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid #ec4134;
+    color: #ec4134;
 }
 
 .closeIconDiv .closeIcon {
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.contactCard p:first-of-type {
+    margin-top: 2rem;
+    font-size: 12px;
+    opacity: .4;
+}
+
+.contactCard .iconsContactDiv {
+    width: fit-content;
+    margin: 0.5rem auto 2.5rem auto;
+}
+
+.iconsContactDiv .iconContactBuyer {
     height: 2rem;
     width: 2rem;
+}
+
+.iconsContactDiv .phoneIcon {
+    color: #085cce;
+}
+
+.iconsContactDiv .msgIcon {
+    margin: 0 2.5rem;
+    color: #2177e9;
+}
+
+.iconsContactDiv .whatsappIcon {
+    color: #4de969;
+}
+
+.contactCard p,
+h3 {
+    text-align: center;
+}
+
+.contactCard h3 {
+    color: var(--myGreen);
+    margin: 0 0 3rem 0;
+    font-size: 1.5rem;
 }
