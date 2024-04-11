@@ -30,17 +30,18 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    color: var(--myWhite);
+}
+
+.closeIconDiv .closeIcon {
+    height: 1.7rem;
+    width: 1.7rem;
 }
 
 .contactCard .closeIconDiv:hover,
 .contactCard .closeIconDiv:active {
     border: 1px solid #ec4134;
     color: #ec4134;
-}
-
-.closeIconDiv .closeIcon {
-    height: 1.7rem;
-    width: 1.7rem;
 }
 
 .contactCard p:first-of-type {
@@ -73,12 +74,12 @@
 }
 
 .contactCard p,
-h3 {
+.contactCard h3 {
     text-align: center;
 }
 
 .contactCard h3 {
     color: var(--myGreen);
     margin: 0 0 3rem 0;
-    font-size: 1.5rem;
+    font-size: 1.7em;
 }
