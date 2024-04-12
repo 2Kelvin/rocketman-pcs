@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import './ProductCard.css';
 import ContactCard from '../ContactCard/ContactCard';
 import MorePics from "../MorePics/MorePics";
@@ -21,7 +22,7 @@ export default function ProductCard({ product }) {
             <p className='keySpecs'>Key Specs</p>
             <>
                 {product.specs.map((spec) => (
-                    <p className='specP'>{spec}</p>
+                    <p key={uuidv4()} className='specP'>{spec}</p>
                 ))}
             </>
             <hr />
