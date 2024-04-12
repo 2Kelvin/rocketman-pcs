@@ -18,50 +18,50 @@ export default function MorePics({ setShowMorePics, allImages, imageAlt }) {
     const onePicture = allImages[imgindex];
 
     return (
-        <section className="morePicsSection">
-            <div className="iconCloseWrapper">
-                <div className="closeDivIcon">
+        <section className="sectionMorePics">
+            <div className="wrapCloseIconDiv">
+                <div className="divCloseIcon">
                     <IoCloseOutline
-                        className="closeGalleryIcon"
+                        className="closeIcon"
                         onClick={() => setShowMorePics(false)}
                     />
                 </div>
             </div>
 
-            <div className="imagesDirWrapper">
-                <button className="dirIconBtn" disabled={cannotGoToPrevImage}>
-                    <IoIosArrowBack
-                        className="dirIcon"
-                        onClick={() => {
-                            // checking if there's a previous image to click to
-                            if (!cannotGoToPrevImage) {
-                                setImgindex(imgindex - 1);
-                            }
-                        }}
-                    />
-                </button>
+            <div className="wrapBtnsAndImage">
+                <div className="theBtnsDiv">
+                    <button disabled={cannotGoToPrevImage}>
+                        <IoIosArrowBack
+                            className="directionIcon"
+                            onClick={() => {
+                                // checking if there's a previous image to click to
+                                if (!cannotGoToPrevImage) {
+                                    setImgindex(imgindex - 1);
+                                }
+                            }}
+                        />
+                    </button>
 
-                <div className="imagesDiv">
-                    <OneImage
-                        key={imgindex}
-                        onePicture={onePicture}
-                        imageAlt={imageAlt}
-                        imgIndex={imgindex}
-                        imagesCount={imagesCount}
-                    />
+                    <button disabled={cannotGoToNextImage}>
+                        <IoIosArrowForward
+                            className="directionIcon"
+                            onClick={() => {
+                                // checking if there's a next image to click to
+                                if (!cannotGoToNextImage) {
+                                    setImgindex(imgindex + 1);
+                                }
+                            }}
+                        />
+                    </button>
                 </div>
 
-                <button className="dirIconBtn" disabled={cannotGoToNextImage}>
-                    <IoIosArrowForward
-                        className="dirIcon"
-                        onClick={() => {
-                            // checking if there's a next image to click to
-                            if (!cannotGoToNextImage) {
-                                setImgindex(imgindex + 1);
-                            }
-                        }}
-                    />
-                </button>
+                <OneImage
+                    key={imgindex}
+                    onePicture={onePicture}
+                    imageAlt={imageAlt}
+                    imgIndex={imgindex}
+                    imagesCount={imagesCount}
+                />
             </div>
         </section>
     );
