@@ -40,8 +40,8 @@
 
 .contactCard .closeIconDiv:hover,
 .contactCard .closeIconDiv:active {
-    border: 1px solid #ec4134;
-    color: #ec4134;
+    border: 1px solid var(--closeBtn);
+    color: var(--closeBtn);
 }
 
 .contactCard p:first-of-type {

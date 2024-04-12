@@ -1,14 +1,20 @@
 import { useState } from 'react';
 import './ProductCard.css';
 import ContactCard from '../ContactCard/ContactCard';
+import MorePics from "../MorePics/MorePics";
 
 
 export default function ProductCard({ product }) {
     const [showContact, setShowContact] = useState(false);
+    const [showMorePics, setShowMorePics] = useState(false);
 
     return (
         <div className='productCard'>
-            <img src={product.image} alt={product.alt} />
+            <img
+                src={product.image}
+                alt={product.alt}
+                onClick={() => setShowMorePics(true)}
+            />
             <h4>{product.name}</h4>
             <p>{product.type}</p>
             <hr />
@@ -43,6 +49,14 @@ export default function ProductCard({ product }) {
             </button>
 
             {showContact && <ContactCard showContact={showContact} setShowContact={setShowContact} />}
+
+            {showMorePics &&
+                <MorePics
+                    setShowMorePics={setShowMorePics}
+                    allImages={product.allImages}
+                    imageAlt={product.alt}
+                />
+            }
         </div>
     );
 }

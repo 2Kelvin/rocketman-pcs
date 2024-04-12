@@ -4,7 +4,7 @@ export default function Title() {
     return (
         <div className='title'>
             <h2>Computers & Accessories In Stock</h2>
-            <p>Click the image of the product you're interested in to see more details and pictures.</p>
+            <p>Click the image of the product you're interested in to view more pictures.</p>
         </div>
     );
 }
