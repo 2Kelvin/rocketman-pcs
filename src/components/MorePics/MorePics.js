@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
+import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { IoCloseOutline } from "react-icons/io5";
 import "./MorePics.css";
 import OneImage from "../OneImage/OneImage";
@@ -30,7 +30,7 @@ export default function MorePics({ setShowMorePics, allImages, imageAlt }) {
 
             <div className="imagesDirWrapper">
                 <button className="dirIconBtn" disabled={cannotGoToPrevImage}>
-                    <GrLinkPrevious
+                    <IoIosArrowBack
                         className="dirIcon"
                         onClick={() => {
                             // checking if there's a previous image to click to
@@ -52,7 +52,7 @@ export default function MorePics({ setShowMorePics, allImages, imageAlt }) {
                 </div>
 
                 <button className="dirIconBtn" disabled={cannotGoToNextImage}>
-                    <GrLinkNext
+                    <IoIosArrowForward
                         className="dirIcon"
                         onClick={() => {
                             // checking if there's a next image to click to
