@@ -188,9 +188,123 @@
 @media screen and (min-width: 840px) {
     .morePicsSection .imagesDirWrapper {
         padding: 0.5rem;
+        gap: 1rem;
+        grid-template-columns: 3rem 1fr 3rem;
+    }
+
+    .dirIconBtn .dirIcon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .morePicsSection .imagesDiv img {
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .morePicsSection .imagesDirWrapper {
+        gap: 2rem;
+    }
+
+    .dirIconBtn .dirIcon {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .morePicsSection .imagesDiv img {
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .morePicsSection {
+        width: 80%;
+    }
+
+    .morePicsSection .imagesDiv {
+        height: 100%;
+    }
+
+    .morePicsSection .imagesDiv img {
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .morePicsSection .imagesDiv {
+        height: 95%;
+    }
+
+    .morePicsSection .imagesDiv img {
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .morePicsSection {
+        height: 90%;
     }
 
     .morePicsSection .imagesDirWrapper {
-        gap: 1rem;
+        height: 85%;
+    }
+
+    .morePicsSection .imagesDiv {
+        height: 95%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .morePicsSection {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .morePicsSection .imagesDirWrapper {
+        gap: 2.5rem;
+    }
+
+    .morePicsSection .imagesDiv {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .morePicsSection {
+        width: 65%;
+    }
+
+    .morePicsSection .imagesDirWrapper {
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .morePicsSection .imagesDiv {
+        height: 95%;
+    }
+
+    .morePicsSection .imagesDiv img {
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .morePicsSection {
+        width: 60%;
+    }
+
+    .morePicsSection .imagesDirWrapper {
+        grid-template-columns: 4rem 1fr 4rem;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .morePicsSection .imagesDiv {
+        height: 95%;
+    }
+    .morePicsSection .imagesDiv img {
+        height: 70%;
     }
 }
