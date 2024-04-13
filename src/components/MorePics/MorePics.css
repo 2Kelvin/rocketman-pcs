@@ -1,10 +1,19 @@
-.sectionMorePics {
-    background-color: var(--bgBlack2);
+.morePicsTransparentBg {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 1;
+    width: 100vw;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionMorePics {
+    background-color: var(--bgBlack2);
     border-top: 2px solid var(--myGreen);
     border-bottom-right-radius: 1rem;
     overflow: hidden;
