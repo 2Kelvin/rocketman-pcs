@@ -26,9 +26,7 @@ import xfx3 from './images/gpus/xfx_580_4gb/xfx_580_3.jpg';
 
 // zotac 970
 import gtx970_1 from './images/gpus/zotac_970/gtx_970_1.png';
-import gtx970_2 from './images/gpus/zotac_970/gtx_970_2.png';
 import gtx970_3 from './images/gpus/zotac_970/gtx_970_3.png';
-import gtx970_4 from './images/gpus/zotac_970/gtx_970_4.png';
 import gtx970_5 from './images/gpus/zotac_970/gtx_970_5.jpg';
 
 const rx570 = {
@@ -142,7 +140,7 @@ const gtx970_gpu = {
     price: '17,500',
     newPrice: '13,800',
     sold: true,
-    allImages: [gtx970_1, gtx970_2, gtx970_3, gtx970_4, gtx970_5],
+    allImages: [gtx970_1, gtx970_3, gtx970_5],
 };
 
 export const myStock = [
