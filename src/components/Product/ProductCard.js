@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import './ProductCard.css';
 import ContactCard from '../ContactCard/ContactCard';
 import MorePics from "../MorePics/MorePics";
+import soldSticker from './../../images/sold.png';
 
 
 export default function ProductCard({ product }) {
@@ -14,6 +15,7 @@ export default function ProductCard({ product }) {
             <img
                 src={product.image}
                 alt={product.alt}
+                loading='lazy'
                 onClick={() => setShowMorePics(true)}
             />
             <h4>{product.name}</h4>
@@ -57,6 +59,10 @@ export default function ProductCard({ product }) {
                     allImages={product.allImages}
                     imageAlt={product.alt}
                 />
+            }
+
+            {product.sold && // displaying a sold sticker on sold products
+                <img src={soldSticker} alt='sold sticker' className='sold-sticker' />
             }
         </div>
     );

@@ -3,6 +3,8 @@
     border-bottom-right-radius: 1rem;
     overflow: hidden;
     color: var(--greyWhite);
+    /* using this to place the sold sticker on sold items */
+    position: relative;
 }
 
 .productCard img {
@@ -72,6 +74,14 @@
 .productCard button:hover,
 .productCard button:active {
     background-color: var(--hoverGreen);
+}
+
+.productCard .sold-sticker {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 6rem;
+    width: 6rem;
 }
 
 

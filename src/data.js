@@ -34,7 +34,7 @@ const rx570_2 = {
     ],
     price: '19,999',
     newPrice: '12,999',
-    sold: false,
+    sold: true,
     allImages: [image570, image570],
 };
 
