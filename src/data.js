@@ -4,6 +4,7 @@ import img570_2 from './images/gpus/xfx_570_4gb/570_2.jpg';
 
 // msi 480 4gb
 import msi480_1 from './images/gpus/msi480_4gb/rx480.png';
+import msi480_2 from './images/gpus/msi480_4gb/rx480_back.jpg';
 
 // aorus 580 4gb
 import aorus from './images/gpus/aorus_580_4gb/aorus.jpg';
@@ -64,7 +65,7 @@ const msi480_4gb = {
     price: '18,500',
     newPrice: '14,500',
     sold: true,
-    allImages: [msi480_1],
+    allImages: [msi480_1, msi480_2],
 };
 
 const aorus580 = {
