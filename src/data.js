@@ -84,7 +84,7 @@ const aorus580 = {
     price: '16,999',
     newPrice: '15,500',
     sold: true,
-    allImages: [aorus, aorus1, aorus2, aorus3, aorus4, aorus5],
+    allImages: [aorus3, aorus1, aorus2, aorus, aorus4, aorus5],
 };
 
 const msi580_8gb = {
