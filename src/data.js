@@ -44,6 +44,20 @@ import lat_6300u_2 from './images/laptops/laptop_6300u/laptop2.jpg';
 import lat_6300u_3 from './images/laptops/laptop_6300u/laptop3.jpg';
 import lat_6300u_4 from './images/laptops/laptop_6300u/laptop4.jpg';
 
+// latitide 82500u
+import lat_8250u_1 from './images/laptops/latitude_8250u/latitude82501.jpg';
+import lat_8250u_2 from './images/laptops/latitude_8250u/latitude82502.jpg';
+import lat_8250u_3 from './images/laptops/latitude_8250u/latitude82503.jpg';
+import lat_8250u_4 from './images/laptops/latitude_8250u/latitude82504.jpg';
+import lat_8250u_5 from './images/laptops/latitude_8250u/latitude82505.jpg';
+import lat_8250u_6 from './images/laptops/latitude_8250u/latitude82506.jpg';
+
+// optiplex 390
+import opti390_1 from './images/desktops/optiplex_390/optiplex1.jpg';
+import opti390_2 from './images/desktops/optiplex_390/optiplex2.jpg';
+import opti390_3 from './images/desktops/optiplex_390/optiplex3.jpg';
+import opti390_4 from './images/desktops/optiplex_390/optiplex4.jpg';
+
 const rx570 = {
     id: 1,
     image: img570,
@@ -212,7 +226,7 @@ const latitide8250uLaptop = {
     price: '35,500',
     newPrice: '29,400',
     sold: true,
-    allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
+    allImages: [lat_8250u_1, lat_8250u_2, lat_8250u_3, lat_8250u_4, lat_8250u_5, lat_8250u_6],
 };
 
 const optiplex390 = {
@@ -231,7 +245,7 @@ const optiplex390 = {
     price: '35,500',
     newPrice: '29,400',
     sold: true,
-    allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
+    allImages: [opti390_1, opti390_2, opti390_3, opti390_4],
 };
 
 export const myStock = [
@@ -243,4 +257,6 @@ export const myStock = [
     gtx970_gpu,
     gtx1050ti,
     latitide6300uLaptop,
+    latitide8250uLaptop,
+    optiplex390,
 ];
