@@ -78,8 +78,8 @@ const rx570 = {
 };
 
 const latitide6300uLaptop = {
-    id: 8,
-    image: lat_6300u_1,
+    id: 2,
+    image: lat_6300u_3,
     alt: 'Dell Latitude 7480',
     name: 'Dell Latitude 7480',
     type: 'Laptop',
@@ -93,11 +93,11 @@ const latitide6300uLaptop = {
     price: '35,000',
     newPrice: '29,999',
     sold: false,
-    allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
+    allImages: [lat_6300u_2, lat_6300u_1, lat_6300u_4],
 };
 
 const latitide8250uLaptop = {
-    id: 9,
+    id: 3,
     image: lat_8250u_1,
     alt: 'Dell Latitude 7490',
     name: 'Dell Latitude 7490',
@@ -116,7 +116,7 @@ const latitide8250uLaptop = {
 };
 
 const optiplex390 = {
-    id: 10,
+    id: 4,
     image: opti390_1,
     alt: 'Dell Optiplex 390',
     name: 'Dell Optiplex 390',
@@ -135,7 +135,7 @@ const optiplex390 = {
 };
 
 const gtx1050ti = {
-    id: 7,
+    id: 5,
     image: gtx1050ti_1,
     alt: 'EVGA GTX 1050Ti 4GB',
     name: 'EVGA GTX 1050Ti 4GB',
@@ -154,7 +154,7 @@ const gtx1050ti = {
 };
 
 const msi480_4gb = {
-    id: 2,
+    id: 6,
     image: msi480_1,
     alt: 'MSI RX 480 4GB',
     name: 'MSI RX 480 4GB',
@@ -173,7 +173,7 @@ const msi480_4gb = {
 };
 
 const aorus580 = {
-    id: 3,
+    id: 7,
     image: aorus2,
     alt: 'Gigabyte RX 580 4GB',
     name: 'Gigabyte RX 580 4GB',
@@ -192,7 +192,7 @@ const aorus580 = {
 };
 
 const msi580_8gb = {
-    id: 4,
+    id: 8,
     image: msi580_2,
     alt: 'MSI RX 580 8GB',
     name: 'MSI RX 580 8GB',
@@ -211,7 +211,7 @@ const msi580_8gb = {
 };
 
 const xfx580_4gb = {
-    id: 5,
+    id: 9,
     image: xfx1,
     alt: 'XFX RX 580 4GB',
     name: 'XFX RX 580 4GB',
@@ -230,7 +230,7 @@ const xfx580_4gb = {
 };
 
 const gtx970_gpu = {
-    id: 6,
+    id: 10,
     image: gtx970_1,
     alt: 'ZOTAC GTX 970 4GB',
     name: 'ZOTAC GTX 970 4GB',
