@@ -47,9 +47,7 @@ import lat_6300u_4 from './images/laptops/laptop_6300u/laptop4.jpg';
 // latitide 82500u
 import lat_8250u_1 from './images/laptops/latitude_8250u/latitude82501.jpg';
 import lat_8250u_2 from './images/laptops/latitude_8250u/latitude82502.jpg';
-import lat_8250u_3 from './images/laptops/latitude_8250u/latitude82503.jpg';
 import lat_8250u_4 from './images/laptops/latitude_8250u/latitude82504.jpg';
-import lat_8250u_5 from './images/laptops/latitude_8250u/latitude82505.jpg';
 import lat_8250u_6 from './images/laptops/latitude_8250u/latitude82506.jpg';
 
 // optiplex 390
