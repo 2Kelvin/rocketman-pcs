@@ -250,13 +250,13 @@ const gtx970_gpu = {
 
 export const myStock = [
     rx570,
+    latitide6300uLaptop,
+    latitide8250uLaptop,
+    optiplex390,
+    gtx1050ti,
     msi480_4gb,
     aorus580,
     msi580_8gb,
     xfx580_4gb,
     gtx970_gpu,
-    gtx1050ti,
-    latitide6300uLaptop,
-    latitide8250uLaptop,
-    optiplex390,
 ];
