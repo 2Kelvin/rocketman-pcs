@@ -206,7 +206,7 @@ const latitide6300uLaptop = {
     ],
     price: '35,000',
     newPrice: '29,999',
-    sold: true,
+    sold: false,
     allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
 };
 
@@ -225,7 +225,7 @@ const latitide8250uLaptop = {
     ],
     price: '35,500',
     newPrice: '29,400',
-    sold: true,
+    sold: false,
     allImages: [lat_8250u_1, lat_8250u_2, lat_8250u_3, lat_8250u_4, lat_8250u_5, lat_8250u_6],
 };
 
@@ -244,7 +244,7 @@ const optiplex390 = {
     ],
     price: '35,500',
     newPrice: '29,400',
-    sold: true,
+    sold: false,
     allImages: [opti390_1, opti390_2, opti390_3, opti390_4],
 };
 
