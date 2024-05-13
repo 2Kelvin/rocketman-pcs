@@ -112,7 +112,7 @@ const latitide8250uLaptop = {
     price: '35,500',
     newPrice: '29,400',
     sold: false,
-    allImages: [lat_8250u_2, lat_8250u_3, lat_8250u_4, lat_8250u_5, lat_8250u_6],
+    allImages: [lat_8250u_2, lat_8250u_4, lat_8250u_6],
 };
 
 const optiplex390 = {
