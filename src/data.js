@@ -101,7 +101,7 @@ const latitide8250uLaptop = {
     name: 'Dell Latitude 7490',
     type: 'Laptop',
     specs: [
-        'i5 8250U. 4 cores @1.70GHZ',
+        'i5 8250U @1.70GHZ',
         '8GB RAM',
         '238 SSD',
         '1920 * 1080 Resolution',
