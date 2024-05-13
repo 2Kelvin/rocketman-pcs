@@ -77,6 +77,82 @@ const rx570 = {
     allImages: [img570, img570_2],
 };
 
+const latitide6300uLaptop = {
+    id: 8,
+    image: lat_6300u_1,
+    alt: 'Dell Latitude 7480',
+    name: 'Dell Latitude 7480',
+    type: 'Laptop',
+    specs: [
+        'i5 6300U @2.40GHZ',
+        '8GB RAM',
+        '256 SSD',
+        '1920 * 1080 Resolution',
+        'Windows 10 activated',
+    ],
+    price: '35,000',
+    newPrice: '29,999',
+    sold: false,
+    allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
+};
+
+const latitide8250uLaptop = {
+    id: 9,
+    image: lat_6300u_1,
+    alt: 'Dell Latitude 7490',
+    name: 'Dell Latitude 7490',
+    type: 'Laptop',
+    specs: [
+        'i5 8250U. 4 cores @1.70GHZ',
+        '8GB RAM',
+        '238 SSD',
+        '1920 * 1080 Resolution',
+        'Windows 11',
+    ],
+    price: '35,500',
+    newPrice: '29,400',
+    sold: false,
+    allImages: [lat_8250u_1, lat_8250u_2, lat_8250u_3, lat_8250u_4, lat_8250u_5, lat_8250u_6],
+};
+
+const optiplex390 = {
+    id: 10,
+    image: lat_6300u_1,
+    alt: 'Dell Optiplex 390',
+    name: 'Dell Optiplex 390',
+    type: 'Desktop',
+    specs: [
+        'i5 2400',
+        '8GB RAM',
+        '128 SSD + 500GB HDD',
+        '4 Cores',
+        'Windows 11',
+    ],
+    price: '35,500',
+    newPrice: '29,400',
+    sold: false,
+    allImages: [opti390_1, opti390_2, opti390_3, opti390_4],
+};
+
+const gtx1050ti = {
+    id: 7,
+    image: gtx1050ti_1,
+    alt: 'EVGA GTX 1050Ti 4GB',
+    name: 'EVGA GTX 1050Ti 4GB',
+    type: 'Graphics Card',
+    specs: [
+        '4GB memory size',
+        'DDR5 memory type',
+        '256 bit memory bus',
+        '1216MHz core clock',
+        'PCIE 3.0 x 16 bus interface',
+    ],
+    price: '18,800',
+    newPrice: '18,500',
+    sold: true,
+    allImages: [gtx1050ti_3, gtx1050ti_4, gtx1050ti_5, gtx1050ti_6, gtx1050ti_7],
+};
+
 const msi480_4gb = {
     id: 2,
     image: msi480_1,
@@ -170,82 +246,6 @@ const gtx970_gpu = {
     newPrice: '13,800',
     sold: true,
     allImages: [gtx970_1, gtx970_3, gtx970_5],
-};
-
-const gtx1050ti = {
-    id: 7,
-    image: gtx1050ti_1,
-    alt: 'EVGA GTX 1050Ti 4GB',
-    name: 'EVGA GTX 1050Ti 4GB',
-    type: 'Graphics Card',
-    specs: [
-        '4GB memory size',
-        'DDR5 memory type',
-        '256 bit memory bus',
-        '1216MHz core clock',
-        'PCIE 3.0 x 16 bus interface',
-    ],
-    price: '18,800',
-    newPrice: '18,500',
-    sold: true,
-    allImages: [gtx1050ti_3, gtx1050ti_4, gtx1050ti_5, gtx1050ti_6, gtx1050ti_7],
-};
-
-const latitide6300uLaptop = {
-    id: 8,
-    image: lat_6300u_1,
-    alt: 'Dell Latitude 7480',
-    name: 'Dell Latitude 7480',
-    type: 'Laptop',
-    specs: [
-        'i5 6300U @2.40GHZ',
-        '8GB RAM',
-        '256 SSD',
-        '1920 * 1080 Resolution',
-        'Windows 10 activated',
-    ],
-    price: '35,000',
-    newPrice: '29,999',
-    sold: false,
-    allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
-};
-
-const latitide8250uLaptop = {
-    id: 9,
-    image: lat_6300u_1,
-    alt: 'Dell Latitude 7490',
-    name: 'Dell Latitude 7490',
-    type: 'Laptop',
-    specs: [
-        'i5 8250U. 4 cores @1.70GHZ',
-        '8GB RAM',
-        '238 SSD',
-        '1920 * 1080 Resolution',
-        'Windows 11',
-    ],
-    price: '35,500',
-    newPrice: '29,400',
-    sold: false,
-    allImages: [lat_8250u_1, lat_8250u_2, lat_8250u_3, lat_8250u_4, lat_8250u_5, lat_8250u_6],
-};
-
-const optiplex390 = {
-    id: 10,
-    image: lat_6300u_1,
-    alt: 'Dell Optiplex 390',
-    name: 'Dell Optiplex 390',
-    type: 'Desktop',
-    specs: [
-        'i5 2400',
-        '8GB RAM',
-        '128 SSD + 500GB HDD',
-        '4 Cores',
-        'Windows 11',
-    ],
-    price: '35,500',
-    newPrice: '29,400',
-    sold: false,
-    allImages: [opti390_1, opti390_2, opti390_3, opti390_4],
 };
 
 export const myStock = [
