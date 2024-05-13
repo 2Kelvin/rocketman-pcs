@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rocketman-pcs/static/css/main.ff288fec.css",
-    "main.js": "/rocketman-pcs/static/js/main.d5f7927d.js",
+    "main.js": "/rocketman-pcs/static/js/main.adfd0d3a.js",
     "static/media/gtx1050ti7.jpg": "/rocketman-pcs/static/media/gtx1050ti7.9a43cf9fdba10d50f2da.jpg",
     "static/media/gtx1050ti5.jpg": "/rocketman-pcs/static/media/gtx1050ti5.cc9a5ecb91b05c7d8707.jpg",
     "static/media/gtx1050ti4.jpg": "/rocketman-pcs/static/media/gtx1050ti4.c06946c4c6d1f9b386b4.jpg",
@@ -11,7 +11,6 @@
     "static/media/gtx1050ti1.jpg": "/rocketman-pcs/static/media/gtx1050ti1.1b9d056f9efbd0f604b7.jpg",
     "static/media/rx480.png": "/rocketman-pcs/static/media/rx480.3883d7caba5701ede234.png",
     "static/media/aorus4.jpg": "/rocketman-pcs/static/media/aorus4.2927ed341358a8f3e14e.jpg",
-    "static/media/latitude82503.jpg": "/rocketman-pcs/static/media/latitude82503.437d65a9ca7ff37d1bf9.jpg",
     "static/media/gtx1050ti3.jpg": "/rocketman-pcs/static/media/gtx1050ti3.af70ccc6d6cab369d1b9.jpg",
     "static/media/xfx_580_1.jpg": "/rocketman-pcs/static/media/xfx_580_1.56cfeaf2ed2dbc1b096c.jpg",
     "static/media/latitude82504.jpg": "/rocketman-pcs/static/media/latitude82504.829382477231a2e113ec.jpg",
@@ -20,7 +19,6 @@
     "static/media/xfx_580_3.jpg": "/rocketman-pcs/static/media/xfx_580_3.0d27b26f15c6763365b0.jpg",
     "static/media/aorus1.jpg": "/rocketman-pcs/static/media/aorus1.839564698f397d548db1.jpg",
     "static/media/aorus3.jpg": "/rocketman-pcs/static/media/aorus3.a5bf525aa414e675ccaf.jpg",
-    "static/media/latitude82505.jpg": "/rocketman-pcs/static/media/latitude82505.68b0631d08e49beb8b52.jpg",
     "static/media/latitude82506.jpg": "/rocketman-pcs/static/media/latitude82506.33a50e49d024f251fe26.jpg",
     "static/media/aorus.jpg": "/rocketman-pcs/static/media/aorus.74a2c389c5b74b4dce73.jpg",
     "static/media/gtx_970_5.jpg": "/rocketman-pcs/static/media/gtx_970_5.265eb749158944849f2c.jpg",
@@ -44,10 +42,10 @@
     "static/media/gtx_970_1.png": "/rocketman-pcs/static/media/gtx_970_1.83b05c55ec88b6804945.png",
     "index.html": "/rocketman-pcs/index.html",
     "main.ff288fec.css.map": "/rocketman-pcs/static/css/main.ff288fec.css.map",
-    "main.d5f7927d.js.map": "/rocketman-pcs/static/js/main.d5f7927d.js.map"
+    "main.adfd0d3a.js.map": "/rocketman-pcs/static/js/main.adfd0d3a.js.map"
   },
   "entrypoints": [
     "static/css/main.ff288fec.css",
-    "static/js/main.d5f7927d.js"
+    "static/js/main.adfd0d3a.js"
   ]
 }
