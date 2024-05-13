@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rocketman-pcs/static/css/main.ff288fec.css",
-    "main.js": "/rocketman-pcs/static/js/main.61c90d9a.js",
+    "main.js": "/rocketman-pcs/static/js/main.ad2e22a6.js",
     "static/media/gtx1050ti7.jpg": "/rocketman-pcs/static/media/gtx1050ti7.9a43cf9fdba10d50f2da.jpg",
     "static/media/gtx1050ti5.jpg": "/rocketman-pcs/static/media/gtx1050ti5.cc9a5ecb91b05c7d8707.jpg",
     "static/media/gtx1050ti4.jpg": "/rocketman-pcs/static/media/gtx1050ti4.c06946c4c6d1f9b386b4.jpg",
@@ -44,10 +44,10 @@
     "static/media/gtx_970_1.png": "/rocketman-pcs/static/media/gtx_970_1.83b05c55ec88b6804945.png",
     "index.html": "/rocketman-pcs/index.html",
     "main.ff288fec.css.map": "/rocketman-pcs/static/css/main.ff288fec.css.map",
-    "main.61c90d9a.js.map": "/rocketman-pcs/static/js/main.61c90d9a.js.map"
+    "main.ad2e22a6.js.map": "/rocketman-pcs/static/js/main.ad2e22a6.js.map"
   },
   "entrypoints": [
     "static/css/main.ff288fec.css",
-    "static/js/main.61c90d9a.js"
+    "static/js/main.ad2e22a6.js"
   ]
 }
