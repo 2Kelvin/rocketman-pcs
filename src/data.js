@@ -126,8 +126,8 @@ const optiplex390 = {
         '4 Cores',
         'Windows 11',
     ],
-    price: '35,500',
-    newPrice: '29,400',
+    price: '15,000',
+    newPrice: '12,500',
     sold: false,
     allImages: [opti390_2, opti390_3, opti390_4],
 };
