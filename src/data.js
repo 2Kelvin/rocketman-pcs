@@ -98,7 +98,7 @@ const latitide6300uLaptop = {
 
 const latitide8250uLaptop = {
     id: 9,
-    image: lat_6300u_1,
+    image: lat_8250u_1,
     alt: 'Dell Latitude 7490',
     name: 'Dell Latitude 7490',
     type: 'Laptop',
@@ -112,12 +112,12 @@ const latitide8250uLaptop = {
     price: '35,500',
     newPrice: '29,400',
     sold: false,
-    allImages: [lat_8250u_1, lat_8250u_2, lat_8250u_3, lat_8250u_4, lat_8250u_5, lat_8250u_6],
+    allImages: [lat_8250u_2, lat_8250u_3, lat_8250u_4, lat_8250u_5, lat_8250u_6],
 };
 
 const optiplex390 = {
     id: 10,
-    image: lat_6300u_1,
+    image: opti390_1,
     alt: 'Dell Optiplex 390',
     name: 'Dell Optiplex 390',
     type: 'Desktop',
@@ -131,7 +131,7 @@ const optiplex390 = {
     price: '35,500',
     newPrice: '29,400',
     sold: false,
-    allImages: [opti390_1, opti390_2, opti390_3, opti390_4],
+    allImages: [opti390_2, opti390_3, opti390_4],
 };
 
 const gtx1050ti = {
