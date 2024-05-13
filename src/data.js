@@ -30,13 +30,19 @@ import gtx970_1 from './images/gpus/zotac_970/gtx_970_1.png';
 import gtx970_3 from './images/gpus/zotac_970/gtx_970_3.png';
 import gtx970_5 from './images/gpus/zotac_970/gtx_970_5.jpg';
 
-// zotac 1050ti
+// evga 1050ti
 import gtx1050ti_1 from './images/gpus/gtx1050ti/gtx1050ti1.jpg';
 import gtx1050ti_3 from './images/gpus/gtx1050ti/gtx1050ti3.jpg';
 import gtx1050ti_4 from './images/gpus/gtx1050ti/gtx1050ti4.jpg';
 import gtx1050ti_5 from './images/gpus/gtx1050ti/gtx1050ti5.jpg';
 import gtx1050ti_6 from './images/gpus/gtx1050ti/gtx1050ti6.jpg';
 import gtx1050ti_7 from './images/gpus/gtx1050ti/gtx1050ti7.jpg';
+
+// latitide 6300u
+import lat_6300u_1 from './images/laptops/laptop_6300u/laptop1.jpg';
+import lat_6300u_2 from './images/laptops/laptop_6300u/laptop2.jpg';
+import lat_6300u_3 from './images/laptops/laptop_6300u/laptop3.jpg';
+import lat_6300u_4 from './images/laptops/laptop_6300u/laptop4.jpg';
 
 const rx570 = {
     id: 1,
@@ -171,6 +177,44 @@ const gtx1050ti = {
     allImages: [gtx1050ti_3, gtx1050ti_4, gtx1050ti_5, gtx1050ti_6, gtx1050ti_7],
 };
 
+const latitide6300uLaptop = {
+    id: 8,
+    image: lat_6300u_1,
+    alt: 'Dell Latitude 6300U',
+    name: 'Dell Latitude 6300U',
+    type: 'Laptop',
+    specs: [
+        'i5 6300U @2.4 GHZ',
+        '8GB RAM',
+        '256 SSD',
+        '1920 * 1080 Resolution',
+        'Windows 10 activated',
+    ],
+    price: '34,000',
+    newPrice: '29,999',
+    sold: true,
+    allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
+};
+
+const latitide8250uLaptop = {
+    id: 9,
+    image: lat_6300u_1,
+    alt: 'Dell Latitude 7490',
+    name: 'Dell Latitude 7490',
+    type: 'Laptop',
+    specs: [
+        'i5 8250U',
+        '8GB RAM',
+        '238 SSD',
+        '1920 * 1080 Resolution',
+        'Windows 11 activated',
+    ],
+    price: '29,400',
+    newPrice: '35,500',
+    sold: true,
+    allImages: [lat_6300u_2, lat_6300u_3, lat_6300u_4],
+};
+
 export const myStock = [
     rx570,
     msi480_4gb,
@@ -179,4 +223,5 @@ export const myStock = [
     xfx580_4gb,
     gtx970_gpu,
     gtx1050ti,
+    latitide6300uLaptop,
 ];
