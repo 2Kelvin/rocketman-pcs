@@ -128,7 +128,7 @@ const optiplex390 = {
     ],
     price: '15,000',
     newPrice: '12,500',
-    sold: false,
+    sold: true,
     allImages: [opti390_2, opti390_3, opti390_4],
 };
 
