@@ -71,7 +71,7 @@ const rx570 = {
     ],
     price: '19,999',
     newPrice: '12,999',
-    sold: false,
+    sold: true,
     allImages: [img570, img570_2],
 };
 
@@ -247,10 +247,10 @@ const gtx970_gpu = {
 };
 
 export const myStock = [
-    rx570,
     latitide6300uLaptop,
     latitide8250uLaptop,
     optiplex390,
+    rx570,
     gtx1050ti,
     msi480_4gb,
     aorus580,
