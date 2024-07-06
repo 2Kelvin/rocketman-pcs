@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/rocketman-pcs/static/css/main.ff288fec.css",
-    "main.js": "/rocketman-pcs/static/js/main.8c297df2.js",
+    "main.js": "/rocketman-pcs/static/js/main.f7e8efe7.js",
     "static/media/gtx1050ti7.jpg": "/rocketman-pcs/static/media/gtx1050ti7.9a43cf9fdba10d50f2da.jpg",
+    "static/media/rx480_8.jpg": "/rocketman-pcs/static/media/rx480_8.b111fac091563477952c.jpg",
     "static/media/gtx1050ti5.jpg": "/rocketman-pcs/static/media/gtx1050ti5.cc9a5ecb91b05c7d8707.jpg",
     "static/media/gtx1050ti4.jpg": "/rocketman-pcs/static/media/gtx1050ti4.c06946c4c6d1f9b386b4.jpg",
     "static/media/gtx1050ti6.jpg": "/rocketman-pcs/static/media/gtx1050ti6.fd78224ec2dac24924af.jpg",
@@ -17,23 +18,36 @@
     "static/media/xfx_580_2.jpg": "/rocketman-pcs/static/media/xfx_580_2.7aa5dd185ccbf8cf555b.jpg",
     "static/media/aorus2.jpg": "/rocketman-pcs/static/media/aorus2.c43786995bd501c62a6e.jpg",
     "static/media/xfx_580_3.jpg": "/rocketman-pcs/static/media/xfx_580_3.0d27b26f15c6763365b0.jpg",
+    "static/media/rx480_2.jpg": "/rocketman-pcs/static/media/rx480_2.3e5a278dd224c0dff2a7.jpg",
+    "static/media/rx480_1.jpg": "/rocketman-pcs/static/media/rx480_1.457981026bdc7217dc6a.jpg",
     "static/media/aorus1.jpg": "/rocketman-pcs/static/media/aorus1.839564698f397d548db1.jpg",
     "static/media/aorus3.jpg": "/rocketman-pcs/static/media/aorus3.a5bf525aa414e675ccaf.jpg",
+    "static/media/rx480_7.jpg": "/rocketman-pcs/static/media/rx480_7.2d78a973cb2a5f5287cb.jpg",
+    "static/media/rx480_9.jpg": "/rocketman-pcs/static/media/rx480_9.1418e25246bb7d092f72.jpg",
     "static/media/latitude82506.jpg": "/rocketman-pcs/static/media/latitude82506.33a50e49d024f251fe26.jpg",
+    "static/media/rx480_3.jpg": "/rocketman-pcs/static/media/rx480_3.cb1c3175fd400a448a2b.jpg",
+    "static/media/rx480_5.jpg": "/rocketman-pcs/static/media/rx480_5.bd1636025844e4eb4968.jpg",
     "static/media/aorus.jpg": "/rocketman-pcs/static/media/aorus.74a2c389c5b74b4dce73.jpg",
     "static/media/gtx_970_5.jpg": "/rocketman-pcs/static/media/gtx_970_5.265eb749158944849f2c.jpg",
     "static/media/aorus5.jpg": "/rocketman-pcs/static/media/aorus5.9003d29f7b0e3eaf0a71.jpg",
+    "static/media/rx480_6.jpg": "/rocketman-pcs/static/media/rx480_6.9c69fc86dac9edb6ec86.jpg",
+    "static/media/rx480_4.jpg": "/rocketman-pcs/static/media/rx480_4.a8f7ff053d617a551bfd.jpg",
     "static/media/optiplex1.jpg": "/rocketman-pcs/static/media/optiplex1.00e38ae24a890c8ab8ae.jpg",
     "static/media/laptop4.jpg": "/rocketman-pcs/static/media/laptop4.6eee7516e8fcea32bbba.jpg",
     "static/media/laptop1.jpg": "/rocketman-pcs/static/media/laptop1.9c60f7e9e012df3d09f7.jpg",
     "static/media/optiplex4.jpg": "/rocketman-pcs/static/media/optiplex4.c3e3d277fec76962aba4.jpg",
+    "static/media/gtx1650_2.jpg": "/rocketman-pcs/static/media/gtx1650_2.19a657ca24c640808c83.jpg",
     "static/media/optiplex3.jpg": "/rocketman-pcs/static/media/optiplex3.497e6ef32d52ce09f1dd.jpg",
     "static/media/laptop3.jpg": "/rocketman-pcs/static/media/laptop3.6ddf398c7b547bb3d5b3.jpg",
     "static/media/optiplex2.jpg": "/rocketman-pcs/static/media/optiplex2.3c10d6025b1a6555d5ac.jpg",
+    "static/media/gtx1650_1.jpg": "/rocketman-pcs/static/media/gtx1650_1.346e081356362e97d8c5.jpg",
     "static/media/rx480_back.jpg": "/rocketman-pcs/static/media/rx480_back.748df3e10ab86b6ca138.jpg",
+    "static/media/gtx1650_4.jpg": "/rocketman-pcs/static/media/gtx1650_4.314dfac9b2a281d1461e.jpg",
     "static/media/msi580_4.png": "/rocketman-pcs/static/media/msi580_4.2ce6e461780f1ba2f60f.png",
+    "static/media/gtx1650_3.jpg": "/rocketman-pcs/static/media/gtx1650_3.9cea14b53acaffb5cb43.jpg",
     "static/media/msi580_1.png": "/rocketman-pcs/static/media/msi580_1.a302f4b212b72f70c6b2.png",
     "static/media/570.jpg": "/rocketman-pcs/static/media/570.083886527cc49f6ff1c7.jpg",
+    "static/media/gtx1650_5.jpg": "/rocketman-pcs/static/media/gtx1650_5.1bea88913c899a68be70.jpg",
     "static/media/gtx_970_3.png": "/rocketman-pcs/static/media/gtx_970_3.40d0e90b8b95a40f4e26.png",
     "static/media/laptop2.jpg": "/rocketman-pcs/static/media/laptop2.ca9a0d580b70c2d49472.jpg",
     "static/media/msi580_2.png": "/rocketman-pcs/static/media/msi580_2.01b3ad345ea38433ac26.png",
@@ -42,10 +56,10 @@
     "static/media/gtx_970_1.png": "/rocketman-pcs/static/media/gtx_970_1.83b05c55ec88b6804945.png",
     "index.html": "/rocketman-pcs/index.html",
     "main.ff288fec.css.map": "/rocketman-pcs/static/css/main.ff288fec.css.map",
-    "main.8c297df2.js.map": "/rocketman-pcs/static/js/main.8c297df2.js.map"
+    "main.f7e8efe7.js.map": "/rocketman-pcs/static/js/main.f7e8efe7.js.map"
   },
   "entrypoints": [
     "static/css/main.ff288fec.css",
-    "static/js/main.8c297df2.js"
+    "static/js/main.f7e8efe7.js"
   ]
 }
