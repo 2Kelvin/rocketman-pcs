@@ -56,6 +56,24 @@ import opti390_2 from './images/desktops/optiplex_390/optiplex2.jpg';
 import opti390_3 from './images/desktops/optiplex_390/optiplex3.jpg';
 import opti390_4 from './images/desktops/optiplex_390/optiplex4.jpg';
 
+// asus strix rx 480 8gb
+import strix_1 from './images/gpus/asus_strix_rx480_8gb/rx480_1.jpg';
+import strix_2 from './images/gpus/asus_strix_rx480_8gb/rx480_2.jpg';
+import strix_3 from './images/gpus/asus_strix_rx480_8gb/rx480_3.jpg';
+import strix_4 from './images/gpus/asus_strix_rx480_8gb/rx480_4.jpg';
+import strix_5 from './images/gpus/asus_strix_rx480_8gb/rx480_5.jpg';
+import strix_6 from './images/gpus/asus_strix_rx480_8gb/rx480_6.jpg';
+import strix_7 from './images/gpus/asus_strix_rx480_8gb/rx480_7.jpg';
+import strix_8 from './images/gpus/asus_strix_rx480_8gb/rx480_8.jpg';
+import strix_9 from './images/gpus/asus_strix_rx480_8gb/rx480_9.jpg';
+
+// msi gtx 1650
+import msi_gtx_1650_1 from './images/gpus/msi_gtx1650/gtx1650_1.jpg';
+import msi_gtx_1650_2 from './images/gpus/msi_gtx1650/gtx1650_2.jpg';
+import msi_gtx_1650_3 from './images/gpus/msi_gtx1650/gtx1650_3.jpg';
+import msi_gtx_1650_4 from './images/gpus/msi_gtx1650/gtx1650_4.jpg';
+import msi_gtx_1650_5 from './images/gpus/msi_gtx1650/gtx1650_5.jpg';
+
 const rx570 = {
     id: 1,
     image: img570,
@@ -246,9 +264,52 @@ const gtx970_gpu = {
     allImages: [gtx970_1, gtx970_3, gtx970_5],
 };
 
+const msi1650 = {
+    id: 11,
+    image: msi_gtx_1650_1,
+    alt: 'MSI GTX 1650 4GB',
+    name: 'MSI GTX 1650 4GB',
+    type: 'Graphics Card',
+    specs: [
+        '4GB memory size',
+        'DDR5 memory type',
+        '128 bit memory bus',
+        '1485MHz core clock',
+        'PCIE 3.0 x 16 bus interface',
+    ],
+    price: '24,500',
+    newPrice: '21,999',
+    sold: false,
+    allImages: [msi_gtx_1650_2, msi_gtx_1650_3, msi_gtx_1650_4, msi_gtx_1650_5],
+};
+
+const strix480_8gb = {
+    id: 12,
+    image: strix_2,
+    alt: 'ASUS STRIX RX 480 4GB',
+    name: 'ASUS STRIX RX 480 4GB',
+    type: 'Graphics Card',
+    specs: [
+        '8GB memory size',
+        'DDR5 memory type',
+        '256 bit memory bus',
+        '1266MHz core clock',
+        'PCIE 3.0 x 16 bus interface',
+    ],
+    price: '25,000',
+    newPrice: '19,999',
+    sold: false,
+    allImages: [strix_1, strix_3, strix_4, strix_5, strix_6, strix_7, strix_8, strix_9],
+};
+
 export const myStock = [
+    // not sold
+    strix480_8gb,
+    msi1650,
     latitide6300uLaptop,
     latitide8250uLaptop,
+
+    // sold
     optiplex390,
     rx570,
     gtx1050ti,
